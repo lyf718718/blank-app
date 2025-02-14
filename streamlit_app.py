@@ -14,7 +14,7 @@ if __name__ == '__main__':
                                 height=pixels_per_row*4)
     system_prompt_input = st.text_area("System Prompt", "Any instructions to the LLM to describe its role",
                                 height=pixels_per_row*4)
-    customer_persona = st.text_area("Customer Personal", "Any instructions about the customer the LLM would be responding to",
+    customer_persona = st.text_area("Customer Persona", "Any instructions about the customer the LLM would be responding to",
                                 height=pixels_per_row*4)
     history = st.text_area("Previous Conversation", "Insert any historical conversations real or mock up to give the LLM examples",
                                 height=pixels_per_row*4)
